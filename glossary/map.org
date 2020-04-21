@@ -1,0 +1,12 @@
+Map (Mapear)
+
+O map é uma função primitiva da linguagem que recebe como seu primeiro argumento uma função e listas de valores como argumentos seguintes, 
+devolvendo como resultado uma lista composta pelos resultados da aplicação desse procedimento do argumento a cada item da(s) lista(s) dada(s).
+
+É possível por exemplo aplicar um procedimento de soma a mais de uma lista, fazendo com que o map devolva em uma única lista a soma
+de todos os primeiros elementos das listas anteriores como primeiro elemento, a soma dos segundos como o segundo e assim por diante.
+
+O map também pode receber como um argumento um lambda, e as listas consequentes serão resultado da aplicação do procedimento lambda 
+a cada um dos seus parâmetros.
+
+Fonte: SICP, seção 2.2.1 
